@@ -1,24 +1,25 @@
 # Scala web start
-Composition of general blocks that can be used as starting point on developing web applicatoin in Scala
+Set of general functionalty that needs almost every web application. That project is a composition of my sub projects related different parts of web app.
 
-Demo on [heroku]
+# Demo
+It's easier to visually discover what is included, so please use our demo app
 
-## Language && libraries
-All modules are written in Scala and use Playframework
+## What is in?
 
-## Frontend agnostic 
-We support vuejs frontend but you can use any frontend libraries you are comfortable with just taking our backend code and using your frontend code
+#### Authentication
 
-# What is under the hood?
-This project is the showcase of all available building blocks 
+### Authorization 
 
-1. Authorization, authentication && user management
-2. Notifications (websocket/email/) [soon]
-3. Blog 
-4. Payments
+#### Blog engine
 
-# Ready to deploy to heroku
-...
+#### Payments
+We support subscriptions/payments (for now only Stripe is available)
 
-# Do you need any help or customization? 
-Hire me on ()[Upwork]
+#### Frontent
+It's up to you what to choise to implement frontend part of app as it's completely independent, but we cover most popular ones: Angular/VueJs/ReactJs
+
+## Run locally
+Todo
+
+## Ready to deploy to heroku
+Todo
